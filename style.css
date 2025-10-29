@@ -1,0 +1,169 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  background: #0f172a;
+  color: #e2e8f0;
+  line-height: 1.6;
+}
+
+/* Navbar */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 50px;
+  background: #1e293b;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
+.logo {
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+.logo span {
+  color: #38bdf8;
+}
+
+.nav-links {
+  display: flex;
+  gap: 30px;
+}
+
+.nav-links a {
+  color: #e2e8f0;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+.nav-links a:hover {
+  color: #38bdf8;
+}
+
+/* Hero Section */
+.hero {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background: linear-gradient(120deg, #0ea5e9, #1e3a8a);
+  color: white;
+  padding: 0 20px;
+}
+
+.hero-content h1 {
+  font-size: 2.8rem;
+}
+
+.hero-content h1 span {
+  color: #facc15;
+}
+
+.hero-content p {
+  margin: 15px 0 25px;
+  font-size: 1.2rem;
+}
+
+.btn {
+  background: #38bdf8;
+  color: #0f172a;
+  padding: 10px 25px;
+  border-radius: 5px;
+  text-decoration: none;
+  font-weight: 600;
+  transition: 0.3s;
+}
+
+.btn:hover {
+  background: #0ea5e9;
+}
+
+/* Section Layouts */
+section {
+  padding: 80px 60px;
+  text-align: center;
+}
+
+h2 {
+  color: #38bdf8;
+  margin-bottom: 20px;
+}
+
+/* Skills */
+.skill-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+  justify-content: center;
+}
+
+.skill-card {
+  background: #1e293b;
+  padding: 12px 25px;
+  border-radius: 8px;
+  transition: 0.3s;
+}
+
+.skill-card:hover {
+  background: #38bdf8;
+  color: #0f172a;
+}
+
+/* Projects */
+.project-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+.project-card {
+  background: #1e293b;
+  padding: 25px;
+  width: 300px;
+  border-radius: 10px;
+  transition: 0.3s;
+}
+
+.project-card:hover {
+  transform: translateY(-5px);
+  background: #334155;
+}
+
+/* Contact */
+.contact-links {
+  margin-top: 15px;
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.contact-links a {
+  background: #38bdf8;
+  color: #0f172a;
+  padding: 10px 20px;
+  border-radius: 6px;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+.contact-links a:hover {
+  background: #0ea5e9;
+}
+
+/* Footer */
+footer {
+  background: #1e293b;
+  padding: 20px;
+  text-align: center;
+  color: #94a3b8;
+}
